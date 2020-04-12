@@ -2,27 +2,27 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: 'Courier';
+	font-family: tablet-gothic-condensed, "arial narrow", arial, verdana, sans-serif;
 }
 .container{
 	width: 95%;
 	margin: auto;
 }
-.col{
+.box{
 	width: 30%;
 	float: left;
 	border: 1px solid black;
 	position: relative;
 	margin: 0 1.66%;
-	background-color: #848484;
+	background-color: #D8D8D8;
 }
 h1{
 	font-size: 200%;
 	text-align: center;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-bottom: 3%;
 }
-.col > h2{
+.box > h2{
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -32,43 +32,42 @@ h1{
 	margin: 0;
 	padding: 7px;
 }
-.col > p{
+.box > p{
 	font-size: 100%;
 	margin-top: 50px;
     padding: 0 14px;
 }
-.col:first-child > h2{
+.box:first-child > h2{
 	background-color: #9AFE2E;
 }
-.col:nth-child(2) > h2{
+.box:nth-child(2) > h2{
 	background-color: #A9D0F5;
-	color: #fff;
 }
-.col:last-child > h2{
-	background-color: #F7FE2E;
-	color: #fff;
+.box:last-child > h2{
+	background-color: #BCA9F5;
 }
+
 @media(min-width: 768px) and (max-width: 991px){
-	.col:first-child, .col:nth-child(2){
+	.box:first-child, .box:nth-child(2){
 		width: 48%;
-		margin-bottom: 28px;
+		margin-bottom: 30px;
 	}
-	.col:first-child{
+	.box:first-child{
 		margin-left: 0;
     	margin-right: 2.3%;
 	}
-	.col:nth-child(2){
+	.box:nth-child(2){
 		margin-right: 0;
 	}
-	.col:last-child{
+	.box:last-child{
 		width: 100%;
 		margin: 0;
 	}
 }
 @media(max-width: 767px){
-	.col{
+	.box{
 		width: 100%;
 		margin: 0;
-		margin-bottom: 28px;
+		margin-bottom: 30px;
 	}
 }
