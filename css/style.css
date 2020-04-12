@@ -17,7 +17,7 @@ body{
 	background-color: #ffed8a;
 }
 h1{
-	font-size: 175%;
+	font-size: 200%;
 	text-align: center;
     margin-top: 6%;
     margin-bottom: 3%;
@@ -38,14 +38,14 @@ h1{
     padding: 0 14px;
 }
 .col:first-child > h2{
-	background-color: #ff8cb4;
+	background-color: #9AFE2E;
 }
 .col:nth-child(2) > h2{
-	background-color: #f51664;
+	background-color: #A9D0F5;
 	color: #fff;
 }
 .col:last-child > h2{
-	background-color: #6b16f5;
+	background-color: #F7FE2E;
 	color: #fff;
 }
 @media(min-width: 768px) and (max-width: 991px){
