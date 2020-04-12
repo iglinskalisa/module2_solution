@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: tablet-gothic-condensed, "arial narrow", arial, verdana, sans-serif;
+	font-family: monospace;
 }
 .container{
 	width: 95%;
